@@ -62,6 +62,7 @@ class Msg91 extends SMSAdapter
                 'sender' => $this->senderId,
                 'template_id' => $this->templateId,
                 'recipients' => $recipients,
+                'var1' => $message->getContent(),
             ],
         );
 
